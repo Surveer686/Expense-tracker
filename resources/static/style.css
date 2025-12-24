@@ -1,0 +1,96 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Page background */
+body {
+    background: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container */
+.container {
+    width: 420px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h2, h3 {
+    text-align: center;
+    color: #333;
+}
+
+/* Form labels */
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Inputs & select */
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Buttons */
+button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    background: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #125ea7;
+}
+
+/* Expense list */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #f1f3f5;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Delete button */
+li button {
+    width: auto;
+    padding: 5px 10px;
+    background: #d32f2f;
+    font-size: 13px;
+}
+
+li button:hover {
+    background: #a00000;
+}
+
+/* Chart spacing */
+canvas {
+    margin-top: 20px;
+}
