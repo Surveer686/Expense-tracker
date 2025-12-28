@@ -37,6 +37,7 @@ A full-stack Expense Tracker web application built using **Java**, **MySQL**, an
 ---
 
 ## 📂 Project Structure
+```
 expense-tracker
 │
 ├── src/main/java/com/expensetracker/expense_tracker
@@ -55,3 +56,4 @@ expense-tracker
 │
 ├── pom.xml
 └── README.md
+```
